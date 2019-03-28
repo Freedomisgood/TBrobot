@@ -2,8 +2,7 @@ import itchat
 from getdiscount import *
 
 if __name__ == '__main__':
-	#user_id = '631090'
-	user_id = '631255'
+	user_id = '*'
 	itchat.auto_login(enableCmdQR=2)
 
 	mama = Mama(user_id)
